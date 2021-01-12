@@ -1,0 +1,23 @@
+.product{
+    display: flex;
+    border-bottom: 1px solid #7ec708;
+    margin-bottom: 30px;
+}
+.content{
+    padding: 20px;
+}
+.product h4 {
+    color: #4747f5;
+    
+}
+.add_to_cart{
+    padding: 10px 30px;
+    margin-top: 20px;
+    background: orange;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+}

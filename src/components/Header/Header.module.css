@@ -1,0 +1,29 @@
+.header{
+    text-align: center;
+}
+.header img {
+    height: 80px;
+}
+
+.header nav {
+    background: black;
+}
+
+.header nav a {
+    padding: 15px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 10px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.header nav a:hover {
+    background: #ddd;
+    color: #000;
+}
